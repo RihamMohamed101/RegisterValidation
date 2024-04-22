@@ -1,0 +1,49 @@
+body {
+    background-color: #24353F;
+}
+
+form , 
+.contant {
+    box-shadow: 0 0 20px 2px #0000006f;
+}
+
+h3 {
+    color: #17A2B8;
+}
+
+form .inp{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff !important;
+}
+
+
+
+form .inp:focus , form input[type="submit"]:focus {
+    border: 1px solid #17A2B8;
+    outline: none;
+    box-shadow: none !important;
+    background-color: transparent;
+}
+
+form input[type="submit"] {
+    color: #17A2B8;
+    background-color: transparent;
+    border: 1px solid #17A2B8;
+    font-size: 22px !important;
+    transition: .5s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #17A2B8;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contant {
+    transform: translate(-50% , -50%);
+}
